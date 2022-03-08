@@ -2,49 +2,86 @@
 <html lang="en">
     <head>
         <title>Nicolás Javier Jan</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css">
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
     </head>
     <body>
+        
+        <div class="accordion" id="accordion-cv">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="about-me">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  About Me
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    I'm a trainee developer seeking a work environment that allows me to practice what I have learned and helps me to continue growing as a developer.
+                    I consider myself a responsible, decided, punctual person, with great initiative and ability to work in a team.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="personal-information">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Personal Information
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <ul>
+                        <li>E-mail: nicolas.javier.jan@gmail.com</li>
+                        <li>Phone Number: +45 71 36 88 01</li>
+                        <li>Date of Birth: 10/08/1990</li>
+                        <li>Nationality: Slovenian/Argentinean.</li>
+                        <li>Languages: English (Business level), French (Basic),Japanese (Basic) and Spanish (Native).</li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="technologies">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Technologies
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <ul>
+                        <li>C</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>HTML/CSS</li>
+                            <ul>
+                                <li>Django</li>
+                                <li>Flask</li>
+                            </ul>
+                        <li>Javascript</li>
+                        <ul>
+                            <li>React</li>
+                            <li>React Native</li>
+                        </ul>
+                        <li>Lua</li>
+                            <ul>
+                                <li>Love2D</li>
+                            </ul>
+                        <li>SQL</li>
+                            <ul>
+                                <li>SQLite3</li>
+                                <li>PostgreSQL</li>
+                                <li>MySQL</li>
+                            </ul>
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
         <h1>Nicolás Javier Jan</h1>
-        <h2>Developer CV</h2>
-        <h3>About Me</h3>
-        <p>I'm a trainee developer seeking a work environment that allows me to practice what I have learned and helps me to continue growing as a developer.
-            I consider myself a responsible, decided, punctual person, with great initiative and ability to work in a team.</p>
-        <h3>Personal Information</h3>
-        <ul>
-            <li>E-mail: nicolas.javier.jan@gmail.com</li>
-            <li>Phone Number: +45 71 36 88 01</li>
-            <li>Date of Birth: 10/08/1990</li>
-            <li>Nationality: Slovenian/Argentinean.</li>
-            <li>Languages: English (Business level), French (Basic),Japanese (Basic) and Spanish (Native).</li>
-        </ul>
-        <h3>Technologies</h3>
-        <ul>
-            <li>C</li>
-            <li>Python</li>
-            <li>Java</li>
-            <li>HTML/CSS</li>
-                <ul>
-                    <li>Django</li>
-                    <li>Flask</li>
-                </ul>
-            <li>Javascript</li>
-            <ul>
-                <li>React</li>
-                <li>React Native</li>
-            </ul>
-            <li>Lua</li>
-                <ul>
-                    <li>Love2D</li>
-                </ul>
-            <li>SQL</li>
-                <ul>
-                    <li>SQLite3</li>
-                    <li>PostgreSQL</li>
-                    <li>MySQL</li>
-                </ul>
-        </ul>
+        <h2>Developer CV</h2>        
         <h4>Programming Courses</h4>
         <ul>
             <li>CS50: Introduction to Computer Science - HarvardX</li>
@@ -107,5 +144,8 @@
             <li>Juan José Castro Conservatory (Buenos Aires, Argentina). Basic Musical Formation (Violin). 2008 - 2013.</li>
             <li>Colegio Cardenal Spinola (Buenos Aires, Argentina). High School Diploma (Bachiller en Economía y Gestión de las Organizaciones). Finished 2008.</li>
         </ul>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
     </body>
 </html>
