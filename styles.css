@@ -1,27 +1,26 @@
 /* CSS for making the website responsive in the future */
 @media screen and (min-width: 320px) {
-    
+    .circle {
+        background-color: red;
+        height: 25vw;
+        width: 25vw;
+        border-radius: 50%;
+        
+    }
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 481px) {
 
 } 
 
-@media screen and (min-width: 568px) {
+@media screen and (min-width: 769px) {
     
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1025px) {
     
 }
 
-@media screen and (min-width: 1024px) {
-    
-}
-
-@media screen and (min-width: 1300px) {
-    
-}
 
 .header {
     background-color: black;
